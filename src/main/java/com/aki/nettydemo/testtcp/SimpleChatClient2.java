@@ -1,4 +1,4 @@
-package com.aki.nettydemo.test;
+package com.aki.nettydemo.testtcp;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.Channel;

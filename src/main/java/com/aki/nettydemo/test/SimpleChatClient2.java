@@ -1,4 +1,4 @@
-package com.aki.nettydemo.test1;
+package com.aki.nettydemo.test;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.Channel;
@@ -10,15 +10,15 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 //客户端1 和客户端2一模一样就是为了启动两个客户端
-public class SimpleChatClient1 {
+public class SimpleChatClient2 {
     public static void main(String[] args) throws Exception{
-        new SimpleChatClient1("localhost", 8080).run();
+        new SimpleChatClient2("localhost", 8080).run();
     }
 
     private final String host;
     private final int port;
 
-    public SimpleChatClient1(String host, int port){
+    public SimpleChatClient2(String host, int port){
         this.host = host;
         this.port = port;
     }

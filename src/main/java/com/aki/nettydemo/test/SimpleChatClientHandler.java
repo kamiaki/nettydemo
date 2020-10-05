@@ -1,4 +1,4 @@
-package com.aki.nettydemo.test1;
+package com.aki.nettydemo.test;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;

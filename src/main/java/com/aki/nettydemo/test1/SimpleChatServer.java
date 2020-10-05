@@ -28,7 +28,7 @@ public class SimpleChatServer {
                     .channel(NioServerSocketChannel.class)
                     // 我们通过增加pipeline的方式给channel增加事务处理监听
                     .childHandler(new SimpleChatServerInitializer())
-                    //初始化服务端可连接队列,指定了队列的大小128,如果未设置或所设置的值小于1，Java将使用默认值50
+                    //初始化服务端可连接队列,指定了队列的大小128,如果未设置或所设置的值小于1,Java将使用默认值50
                     .option(ChannelOption.SO_BACKLOG, 128)
                     //保持长连接
                     .childOption(ChannelOption.SO_KEEPALIVE, true);
